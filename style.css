@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*vh é a altura*/
+    width: 100vw; /*vw é a largura*/
+    background-image: url("https://source.unsplash.com/1980x1080/?landscape");
+}
+
+.caixa-maior{
+    background-color: #000000; /* fundo da div*/
+    width: 95%; /* largura da div*/
+    max-width: 600px;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 10px; /*espaçamento interno*/
+    border-radius: 24px; /*arredonda bordas*/
+    font-size: 20px;
+    color: white;
+    background-color: #7c7c7c2b;
+    width: calc(100% - 100px);
+    
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b ;
+    float: right;
+    
+}
+
+button:hover{
+    background-color: #7c7c7c6b;
+    cursor: pointer;
+}
+
+.lupa{
+    height: 25px;
+}
+
+.caixa-media{
+    margin-top: 40px;    
+}
+
+h2{
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.temperatura{
+    margin-top: 30px;
+    color:#ffffff;
+    font-size: 30px;
+}
+
+.caixa-menor{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.descricao{
+    color: #ffffff;  
+    font-size: 30px;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade{
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 20px;
+}
